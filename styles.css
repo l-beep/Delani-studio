@@ -1,13 +1,14 @@
 #home {
     background-image: url("images/assets/backgrounds/h_img.jpg");
     background-size: cover;
-    height: 700px;
+    height: 800px;
     width: 1500px;
+    text-align: center;
+    position: absolute;
+    color: white;
+
 }
 
 #services {
     background-image: url("images/assets/backgrounds/s_image.jpg");
-}
-#home > h1{
-    test-align: center;
 }
