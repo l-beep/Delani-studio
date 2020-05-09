@@ -4,7 +4,6 @@
     height: 800px;
     width: 1500px;
     text-align: center;
-    /* position: absolute; */
     color: white;
 
 }
@@ -31,4 +30,11 @@
 .column {
     flex: 33.33%;
     padding: 5px;
+}
+
+#contact-us {
+    background-image: url("images/assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 1500px;
 }
