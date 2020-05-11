@@ -26,19 +26,22 @@
 }
 .row {
     display: flex;
+    margin-top: 50px;
+    margin-right: 40px;
+
     
 }
-.column {
+/* .columns {
     flex: 33.33%;
     padding: 5px;
-}
+} */
 
 #contact-us {
     background-image: url("images/assets/backgrounds/c_image.jpg");
     background-size: cover;
     color: white;
     text-align: center;
-    height: 500px;
+    height: 700px;
     width: 1500px;
     text-align: center;
     margin-left: -15px;
@@ -74,6 +77,20 @@ button{
 
 
 
-.paragraph1 {
+.paragraph1, .paragraph2, .paragraph3 {
     display: none;
+
 }
+
+
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
+    display: none;
+    /* position: absolute; */
+    top: 50%;
+    font-size: 1.5em;
+    padding:15px 15px;
+    left: 50%;
+    color: rgb(253, 253, 253);
+    background-color: gray;
+    margin-top: -200px;
+    }
