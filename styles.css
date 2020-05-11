@@ -72,3 +72,8 @@ button{
     border-radius: 12px;
 }
 
+
+
+.paragraph1 {
+    display: none;
+}
