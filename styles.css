@@ -26,6 +26,7 @@
 }
 .row {
     display: flex;
+    
 }
 .column {
     flex: 33.33%;
@@ -35,6 +36,39 @@
 #contact-us {
     background-image: url("images/assets/backgrounds/c_image.jpg");
     background-size: cover;
+    color: white;
+    text-align: center;
     height: 500px;
     width: 1500px;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
 }
+textarea {
+    background: transparent;
+    border: 1px solid white;
+}
+input {
+    background-color: transparent;
+    width: 400px;
+    height: 30px;
+}
+::placeholder{
+    color: white;
+}
+body{
+    text-align: center;
+}
+button{
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
